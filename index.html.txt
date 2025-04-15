@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ouattara Ousmane - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #003060;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+    }
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .card {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ouattara Ousmane</h1>
+    <p>Étudiant en Analyse Statistique | Futur Data Scientist</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <div class="card">
+      <h2>À propos de moi</h2>
+      <p>Je suis étudiant en licence professionnelle à l’ISSP, passionné par la statistique, l’économie, la data science et l’analyse quantitative des risques.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+      <h2>Projets</h2>
+      <ul>
+        <li>Modélisation du risque de défaut bancaire avec Machine Learning</li>
+        <li>Application de visualisation de données en santé publique avec R</li>
+        <li>Préparation au concours CAPESA - Option Économie</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email : ouattara.ousmane@example.com</p>
+      <p>LinkedIn : <a href="#">Mon profil</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ouattara Ousmane</p>
+  </footer>
+</body>
+</html>
